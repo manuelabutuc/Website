@@ -3,36 +3,54 @@
 
     <head>
  		<meta charset="UTF-8">
- 		<title>Curriculum vitae</title>  
+ 		<title>Curriculum vitae</title>
+        <link type="text/css" rel="stylesheet" href="style.css"/>
  	</head>
     
     <body>
-    <h4 style="text-align: center; color:#2672ae;">Curriculum vitae</h4>
-    <h2 style="color: #193672; text-align: center">Manuela  Butuc</h2>
+    <ul id="top-menu-bar">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 
-    <img src="poza.jpg" width="150"/>
+    <div id="header">
 
-    <p>
-        <a href="https://ro.linkedin.com/in/butuc-manuela-23b4a966">
-            <img src="linkedin.png" width="20" />LinkedIn profile
-        </a>
-        <br>
-        <a href="https://www.facebook.com/gavris.manuela">
-            <img src="facebook.jpg" width="20" />Facebook profile
-        </a>
-    </p>
+        <div id="inline">
+           <img id="poza" src="img/poza.jpg" width="150"/>
+        </div>
 
-    <div>
-        Hobby-urile mele:
-        <ul>
-            <li>fotografie</li>
-            <li>programare</li>
-            <li>geografie</li>
-        </ul>
+        <h3>Curriculum vitae</h3>
+            <h1>Manuela  Butuc</h1>
+
+
+
+        <p>
+            <a href="https://ro.linkedin.com/in/butuc-manuela-23b4a966">
+                <img src="img/linkedin.png" width="20" />LinkedIn profile
+            </a>
+            <br>
+            <a href="https://www.facebook.com/gavris.manuela">
+                <img src="img/facebook.jpg" width="20" />Facebook profile
+            </a>
+        </p>
+
+
     </div>
-    
+    <br>
 
-    <table border="1" style="padding: 5px; margin:5px">
+    <div class="page">
+            <b>Hobby-urile mele:</b>
+            <ul>
+                <li>fotografie</li>
+                <li>programare</li>
+                <li>geografie</li>
+            </ul>
+
+
+
+    <table style="width:100%">
         <tr>
             <td><b>Limba</b></td>
             <td><b>Nivelul</b></td>
@@ -61,9 +79,10 @@
         <input type="text" id="email">
         <button>Submit</button>
     </form>
+    </div>
+    <p id="an">2016</p>
 
-    <p style="text-align: center">2016</p>
-
+    <script src="functions.js" type="text/javascript"></script>
     </body>
 </html>
 
